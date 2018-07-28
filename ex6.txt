@@ -1,0 +1,20 @@
+//تبدیل دما به فارنهایت
+
+package ex6;
+
+import java.util.Scanner;
+public class Ex6 {
+	
+	public static void main(String[]args)
+	{
+		float celsius , fahrenheit = 32;
+		System.out.print("Enter a Celsius Temperature :  ");
+		Scanner input = new Scanner(System.in);
+		celsius = input.nextFloat();
+		
+		fahrenheit += celsius * 1.8 ;
+		
+		System.out.printf("Fahrenheit is %f ", fahrenheit);
+	}
+
+}
